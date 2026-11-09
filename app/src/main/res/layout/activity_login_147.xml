@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollLogin147"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_147"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/linearLogin147"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- App Logo & Branding Container -->
+        <ImageView
+            android:id="@+id/ivLoginIcon147"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/bg_header_147"
+            android:contentDescription="Icon Inventaris"
+            android:padding="18dp"
+            android:src="@drawable/ic_inventory_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvLoginTitle147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="INVENTARIS BARANG"
+            android:textColor="@color/primary_147"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLoginSubtitle147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="NIM: 102042330147 • Masuk ke akun Anda"
+            android:textColor="@color/text_secondary_147"
+            android:textSize="13sp" />
+
+        <!-- Card Container -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLogin147"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            app:cardBackgroundColor="@color/surface_147"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_147"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Username Field -->
+                <TextView
+                    android:id="@+id/tvLabelUsername147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etUsername147"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_input_selector_147"
+                    android:drawableStart="@drawable/ic_person_24"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/text_secondary_147"
+                    android:hint="Masukkan username"
+                    android:inputType="text"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/text_primary_147"
+                    android:textColorHint="@color/text_tertiary_147"
+                    android:textSize="14sp" />
+
+                <!-- Password Field -->
+                <TextView
+                    android:id="@+id/tvLabelPassword147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Password"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etPassword147"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_input_selector_147"
+                    android:drawableStart="@drawable/ic_lock_24"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/text_secondary_147"
+                    android:hint="Minimal 6 karakter"
+                    android:inputType="textPassword"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/text_primary_147"
+                    android:textColorHint="@color/text_tertiary_147"
+                    android:textSize="14sp" />
+
+                <!-- Tombol Masuk -->
+                <Button
+                    android:id="@+id/btnLogin147"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="@color/secondary_147"
+                    android:text="MASUK KE AKUN"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvToRegister147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text="Belum punya akun? Daftar di sini"
+            android:textColor="@color/secondary_147"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Brand Palette -->
+    <color name="primary_147">#1E3A8A</color>        <!-- Navy Blue -->
+    <color name="primary_dark_147">#0F172A</color>   <!-- Darkest Navy -->
+    <color name="primary_light_147">#3B82F6</color>  <!-- Lighter Blue -->
+    <color name="secondary_147">#2563EB</color>      <!-- Vibrant Blue -->
+    <color name="accent_147">#2563EB</color>
+
+    <!-- Neutral Background & Surfaces -->
+    <color name="background_147">#F8FAFC</color>     <!-- Light Gray BG -->
+    <color name="surface_147">#FFFFFF</color>        <!-- Clean White Card -->
+    <color name="card_bg_147">#FFFFFF</color>
+
+    <!-- Typography Colors -->
+    <color name="text_primary_147">#0F172A</color>   <!-- Dark Navy Text -->
+    <color name="text_secondary_147">#64748B</color> <!-- Slate Gray Text -->
+    <color name="text_tertiary_147">#94A3B8</color>  <!-- Muted Gray -->
+    <color name="text_on_primary_147">#FFFFFF</color>
+
+    <!-- Borders & Dividers -->
+    <color name="border_147">#E2E8F0</color>
+    <color name="border_focus_147">#2563EB</color>
+    <color name="divider_147">#F1F5F9</color>
+
+    <!-- Semantic / Status Colors -->
+    <color name="success_147">#16A34A</color>        <!-- Green -->
+    <color name="danger_147">#DC2626</color>         <!-- Red -->
+    <color name="warning_147">#D97706</color>        <!-- Amber -->
+
+    <!-- Soft Tints for Badges & Icon Backdrops -->
+    <color name="blue_soft_147">#EFF6FF</color>
+    <color name="blue_soft_text_147">#1D4ED8</color>
+    <color name="green_soft_147">#F0FDF4</color>
+    <color name="green_soft_text_147">#15803D</color>
+    <color name="red_soft_147">#FEF2F2</color>
+    <color name="red_soft_text_147">#B91C1C</color>
+    <color name="amber_soft_147">#FFFBEB</color>
+    <color name="amber_soft_text_147">#B45309</color>
+    <color name="purple_soft_147">#F5F3FF</color>
+    <color name="purple_soft_text_147">#6D28D9</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

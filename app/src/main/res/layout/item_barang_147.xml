@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardItemBarang147"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginVertical="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/surface_147"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_147"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Baris Atas: Nama Barang & Kategori Chip -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvItemNama147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/tvItemKategori147"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Laptop ASUS Vivobook"
+                android:textColor="@color/text_primary_147"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemKategori147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/bg_badge_blue_147"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:text="Elektronik"
+                android:textColor="@color/blue_soft_text_147"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <!-- Baris Stok & Harga Satuan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvItemJumlah147"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stok: 5 Unit"
+                android:textColor="@color/text_secondary_147"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvItemHargaSatuan147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@ Rp 7.500.000"
+                android:textColor="@color/text_secondary_147"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <!-- Baris Subtotal Nilai & Status Ketersediaan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvItemSubtotal147"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total: Rp 37.500.000"
+                android:textColor="@color/secondary_147"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemStatusTersedia147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_green_147"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="3dp"
+                android:text="Tersedia"
+                android:textColor="@color/green_soft_text_147"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="12dp"
+            android:background="@color/divider_147" />
+
+        <!-- Baris Bawah: Kondisi & Action Buttons (Edit / Delete) -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvItemKondisi147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/layoutActionButtons147"
+                android:text="Kondisi: Baru (100%)"
+                android:textColor="@color/text_secondary_147"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutActionButtons147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnItemEdit147"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn_icon_blue_147"
+                    android:contentDescription="Edit"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_edit_24"
+                    app:tint="@color/secondary_147" />
+
+                <ImageButton
+                    android:id="@+id/btnItemDelete147"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bg_btn_icon_red_147"
+                    android:contentDescription="Hapus"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_delete_24"
+                    app:tint="@color/danger_147" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

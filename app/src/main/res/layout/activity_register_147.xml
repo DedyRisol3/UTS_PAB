@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollRegister147"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_147"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/linearRegister147"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Judul Form (TextView) -->
+        <TextView
+            android:id="@+id/tvFormTitle147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="FORM PENDAFTARAN"
+            android:textColor="@color/primary_147"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFormSubtitle147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Lengkapi data akun inventaris (NIM: 102042330147)"
+            android:textColor="@color/text_secondary_147"
+            android:textSize="13sp" />
+
+        <!-- Card Container Form Input -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRegister147"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/surface_147"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_147"
+                android:orientation="vertical"
+                android:padding="22dp">
+
+                <!-- 1. Username Field -->
+                <TextView
+                    android:id="@+id/tvLabelUsername147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etUsername147"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_input_selector_147"
+                    android:drawableStart="@drawable/ic_person_24"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/text_secondary_147"
+                    android:hint="Contoh: user147"
+                    android:inputType="text"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/text_primary_147"
+                    android:textColorHint="@color/text_tertiary_147"
+                    android:textSize="14sp" />
+
+                <!-- 2. Password Field -->
+                <TextView
+                    android:id="@+id/tvLabelPassword147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Password (Min. 6 Karakter)"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etPassword147"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_input_selector_147"
+                    android:drawableStart="@drawable/ic_lock_24"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/text_secondary_147"
+                    android:hint="Minimal 6 karakter"
+                    android:inputType="textPassword"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/text_primary_147"
+                    android:textColorHint="@color/text_tertiary_147"
+                    android:textSize="14sp" />
+
+                <!-- 3. Nama Lengkap Field (EditText textPersonName) -->
+                <TextView
+                    android:id="@+id/tvLabelNamaLengkap147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Nama Lengkap"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNamaLengkap147"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_input_selector_147"
+                    android:drawableStart="@drawable/ic_person_24"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/text_secondary_147"
+                    android:hint="Masukkan nama lengkap"
+                    android:inputType="textPersonName"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/text_primary_147"
+                    android:textColorHint="@color/text_tertiary_147"
+                    android:textSize="14sp" />
+
+                <!-- 4. Jenis Kelamin (RadioGroup & RadioButton) -->
+                <TextView
+                    android:id="@+id/tvLabelGender147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Jenis Kelamin"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rgGender147"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbLaki147"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/secondary_147"
+                        android:checked="true"
+                        android:text="Laki-Laki"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbPerempuan147"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:buttonTint="@color/secondary_147"
+                        android:text="Perempuan"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp" />
+
+                </RadioGroup>
+
+                <!-- 5. Kota Asal (Spinner) -->
+                <TextView
+                    android:id="@+id/tvLabelKota147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Kota Asal"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinnerKota147"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_input_selector_147"
+                    android:paddingHorizontal="14dp" />
+
+                <!-- 6. Nilai Rentang / Progress (SeekBar 0 - 100) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLabelSeekBar147"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tingkat Pemahaman Sistem"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvSeekBarValue147"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_badge_blue_147"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="3dp"
+                        android:text="50 / 100"
+                        android:textColor="@color/secondary_147"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <SeekBar
+                    android:id="@+id/seekBar147"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressTint="@color/secondary_147"
+                    android:thumbTint="@color/secondary_147" />
+
+                <!-- 7. Persetujuan Syarat & Ketentuan (Switch) -->
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchAgreement147"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Saya Menyetujui syarat &amp; ketentuan"
+                    android:textColor="@color/text_primary_147"
+                    android:textSize="13sp" />
+
+                <!-- 8. Submit Button -->
+                <Button
+                    android:id="@+id/btnSubmitRegister147"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="@color/secondary_147"
+                    android:text="SUBMIT / DAFTAR"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Kembali ke Login -->
+        <TextView
+            android:id="@+id/tvToLogin147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:padding="8dp"
+            android:text="Sudah punya akun? Masuk ke sini"
+            android:textColor="@color/secondary_147"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

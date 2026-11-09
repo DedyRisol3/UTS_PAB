@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout147"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_header_147"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/ivLogo147"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="@drawable/bg_circle_translucent_147"
+        android:contentDescription="Logo"
+        android:padding="20dp"
+        android:src="@drawable/ic_inventory_24"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvAppName147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INVENTARIS BARANG"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNimLabel147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="UTS Pengembangan Aplikasi Bergerak\nNIM: 102042330147"
+        android:textAlignment="center"
+        android:textColor="#BAE6FD"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/pbLoading147"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
+        android:indeterminateTint="@color/white" />
+
+</LinearLayout>

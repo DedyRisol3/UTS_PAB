@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollFormItem147"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_147"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/linearFormItem147"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header with Professional Gradient -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_header_147"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="28dp">
+
+            <ImageButton
+                android:id="@+id/btnBackFromForm147"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_circle_translucent_147"
+                android:contentDescription="Kembali"
+                android:padding="8dp"
+                android:src="@drawable/ic_arrow_back_24"
+                app:tint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvFormItemHeaderTitle147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Form Inventaris"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvFormItemHeaderSubtitle147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="NIM: 102042330147 • Input &amp; perbarui data"
+                    android:textColor="#E0E7FF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Form Card Container with Slight Overlap -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="32dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/surface_147"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_card_147"
+                    android:orientation="vertical"
+                    android:padding="22dp">
+
+                    <TextView
+                        android:id="@+id/tvFormItemModeTitle147"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TAMBAH BARANG INVENTARIS"
+                        android:textColor="@color/primary_147"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/divider_147" />
+
+                    <!-- 1. Nama Barang -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Barang *"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etNamaBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_input_selector_147"
+                        android:hint="Contoh: Laptop Dell XPS 13"
+                        android:inputType="text"
+                        android:paddingHorizontal="16dp"
+                        android:textColor="@color/text_primary_147"
+                        android:textColorHint="@color/text_tertiary_147"
+                        android:textSize="14sp" />
+
+                    <!-- 2. Kategori Barang (Spinner) -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Kategori Barang"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinnerKategoriBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_input_selector_147"
+                        android:paddingHorizontal="14dp" />
+
+                    <!-- 3. Jumlah (Stok) -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Jumlah (Stok Unit) *"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etJumlahBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_input_selector_147"
+                        android:hint="Contoh: 10"
+                        android:inputType="number"
+                        android:paddingHorizontal="16dp"
+                        android:textColor="@color/text_primary_147"
+                        android:textColorHint="@color/text_tertiary_147"
+                        android:textSize="14sp" />
+
+                    <!-- 4. Harga Satuan (Rp) -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Harga Satuan (Rp) *"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etHargaBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_input_selector_147"
+                        android:hint="Contoh: 5000000"
+                        android:inputType="number"
+                        android:paddingHorizontal="16dp"
+                        android:textColor="@color/text_primary_147"
+                        android:textColorHint="@color/text_tertiary_147"
+                        android:textSize="14sp" />
+
+                    <!-- 5. Kondisi Barang (RadioGroup & RadioButton) -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Kondisi Fisik"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rgKondisiBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rbKondisiBaru147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/secondary_147"
+                            android:checked="true"
+                            android:text="Baru"
+                            android:textColor="@color/text_primary_147"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/rbKondisiBekas147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:buttonTint="@color/secondary_147"
+                            android:text="Bekas"
+                            android:textColor="@color/text_primary_147"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/rbKondisiRusak147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:buttonTint="@color/secondary_147"
+                            android:text="Perlu Servis"
+                            android:textColor="@color/text_primary_147"
+                            android:textSize="14sp" />
+
+                    </RadioGroup>
+
+                    <!-- 6. Tingkat Kelaikan / Kualitas (SeekBar 0 - 100) -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tingkat Kelayakan Barang"
+                            android:textColor="@color/text_primary_147"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvNilaiKondisi147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_badge_blue_147"
+                            android:paddingHorizontal="10dp"
+                            android:paddingVertical="3dp"
+                            android:text="100%"
+                            android:textColor="@color/secondary_147"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <SeekBar
+                        android:id="@+id/seekBarKondisi147"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:max="100"
+                        android:progress="100"
+                        android:progressTint="@color/secondary_147"
+                        android:thumbTint="@color/secondary_147" />
+
+                    <!-- 7. Status Ketersediaan (Switch) -->
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchTersedia147"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:checked="true"
+                        android:text="Barang Tersedia &amp; Siap Digunakan"
+                        android:textColor="@color/text_primary_147"
+                        android:textSize="13sp" />
+
+                    <!-- 8. Action Buttons -->
+                    <Button
+                        android:id="@+id/btnSimpanBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="26dp"
+                        android:backgroundTint="@color/secondary_147"
+                        android:text="SIMPAN BARANG"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="14dp" />
+
+                    <Button
+                        android:id="@+id/btnHapusBarang147"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="12dp"
+                        android:backgroundTint="@color/danger_147"
+                        android:text="HAPUS BARANG"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        app:cornerRadius="14dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

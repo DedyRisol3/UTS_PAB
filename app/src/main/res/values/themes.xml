@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UTS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_147</item>
+        <item name="colorPrimaryDark">@color/primary_dark_147</item>
+        <item name="colorSecondary">@color/secondary_147</item>
+        <item name="android:statusBarColor">@color/primary_147</item>
+        <item name="android:windowBackground">@color/background_147</item>
+    </style>
+</resources>

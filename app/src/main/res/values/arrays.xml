@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kota_array_147">
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Surabaya</item>
+        <item>Semarang</item>
+        <item>Yogyakarta</item>
+        <item>Medan</item>
+        <item>Makassar</item>
+        <item>Denpasar</item>
+    </string-array>
+
+    <string-array name="kategori_barang_array_147">
+        <item>Elektronik</item>
+        <item>Furnitur &amp; Mebeul</item>
+        <item>Alat Tulis Kantor (ATK)</item>
+        <item>Perangkat Jaringan</item>
+        <item>Peralatan Gudang</item>
+        <item>Lain-lain</item>
+    </string-array>
+</resources>
+
